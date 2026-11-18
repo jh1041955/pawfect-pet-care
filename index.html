@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Pawfect Pet Care</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cards">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cards">FAQs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/fee107dc2233b86eac5d926831540f47.jpg" class="d-block w-100" alt="applecat">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Äpple Kort Kafé</h5>
+        <p>Öppna brun lila värld grön mig stark dag över men. Flygplats ny chans arbete hopp laga gammal tisdag blå svar lära låta äpple kort kafé.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/FI-Picasso-Cat.webp" class="d-block w-100" alt="jamie-the-cat">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Развития</h5>
+        <p>Развития концепция на настолько уточнения сложившаяся укрепления, Принципов насущным следует принципов порядка определения.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/Dog_InEditor.webp" class="d-block w-100" alt="dog">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lorem, ipsum.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rem, cum distinctio porro culpa et dolore aliquam! Enim, at doloribus?</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="container text-center" id="cards">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Daycare</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatibus excepturi natus, adipisci quasi!</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+       </div>
+    </div>
+    <div class="col">
+      <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Grooming</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum obcaecati quam animi?</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+       </div>
+    </div>
+    <div class="col">
+      <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boarding</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi deserunt fugit omnis vitae?</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+       </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Whats the name of the cat?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>His name is Jamie the cat.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, possimus obcaecati modi corrupti blanditiis excepturi! Dolores ad error deserunt porro reprehenderit quaerat tempore mollitia, nemo est facere consequuntur corporis cumque earum minus ducimus sed iste nobis aliquid modi cupiditate. Voluptatum!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What does QURPIT mean?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>One word: Decentralized personal server. Take back your data.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error magnam voluptate a aut inventore asperiores cupiditate eligendi. Amet, corporis veritatis veniam omnis eaque ea culpa.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How many apple?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Three red apple.</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus fuga eos voluptate odit ullam at recusandae atque deserunt rem iusto nulla error iure, maxime culpa ad accusantium repellat nam dolores rerum minima asperiores labore dolorum harum! Error aperiam id accusamus aliquam, quas distinctio, placeat magni, vero eum ea totam aliquid.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
